@@ -1,0 +1,49 @@
+.ContentBoxResposta{
+
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 40px black;
+    border-radius: 5px;
+    display: grid; 
+    grid-auto-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    overflow: auto;
+    
+}
+.Itens {
+    background-color: #141414;
+    color: white;
+    display: flex; /* Centraliza conteúdo dentro dos itens */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    
+    border-radius: 5px;
+}
+.InputTextConsoleResposta{
+    border: none;
+    border-bottom: 2px solid #8d8080;
+    padding: 8px 0;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    width: 90%;
+    background-color: transparent;
+    color: white;
+}
+.InputTextConsoleResposta:focus{
+    border-bottom-color: white;
+}
+
+.ContentRespostaViaChatGpt{
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,284 @@
+h1{
+    left: 8%;
+    top: 2%;
+    position: relative;
+    font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:150%;
+}
+
+.box_lateral_de_navegacao {
+    width: 6%;
+    max-width: 70px;
+    height: 100vh;
+    background-color: black;
+    border-right: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 80px black;
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column; /* Empilha os ícones verticalmente */
+    align-items: center; /* Centraliza os ícones horizontalmente */
+    padding-top: 20px; /* Espaço superior opcional */
+}
+
+.icones_do_menu_de_navegacao {
+    width: 90%;
+    height: 40%;
+    max-height: 70px;
+    margin-bottom: 10px; /* Espaço entre os ícones */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+   margin-top: 7px;
+   color: white;
+   font-family: "Yeseva One", serif;
+   font-size: 1.8rem;
+
+}
+
+.icones_do_menu_de_navegacao:hover {
+    box-shadow: 0 0 10px   #ffae00;
+    border: 1px solid  #ffae00;
+    
+}
+
+.icone_img_home, .icone_img_5, .icone_img_iniciar, .icone_img_perfil, .icone_img_cronograma, .icone_img_loja, .icone_img_configuracao {
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.icone_img_home {
+    background-image: url('/images_icones_menu_esmeralda/home_icon.svg');
+}
+
+.icone_img_5 {
+    background-image: url('/images_icones_menu_esmeralda/fullscree_icon.svg');
+}
+.icone_img_iniciar{
+    background-image: url('/images_icones_menu_esmeralda/play_icon.svg');
+}
+.icone_img_perfil{
+    background-image: url('/images_icones_menu_esmeralda/perfil_icon.svg');
+}
+.icone_img_cronograma{
+    background-image: url('/images_icones_menu_esmeralda/conograma_icon.svg');
+}
+.icone_img_loja{
+    background-image: url('/images_icones_menu_esmeralda/loja_icon.svg') ;
+}
+.icone_img_configuracao{
+    background-image: url('/images_icones_menu_esmeralda/configuracao_icon.svg');
+}
+
+
+
+.icone_5_posicao{
+    position: absolute;
+    top: 87%;
+}
+.icone_cofiguracao_posicao{
+    position: absolute;
+    top: 74%;
+}
+.icone_perfil_posicao{
+    position: absolute;
+    top: 25%;
+}
+.icone_cronogrma_posicao{
+    position: absolute;
+    top: 38%;
+}
+.icone_loja_posicao{
+    position: absolute;
+    top: 51%;
+}
+.mostrar_menu_lateral{
+    display: none;
+}
+@media (device-height: 100vh) { 
+
+    .icone_5_posicao {
+        bottom: -79.5% !important;
+    }
+    
+    h1{
+        font-size: 200%;
+    }
+    
+}
+@media( max-width: 880px){
+
+    .mostrar_menu_lateral{
+        display: flex;
+        width: 30px;
+        height: 8%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(243, 243, 243);
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        z-index: 5;
+        border-radius: 0 5px 5px 0;
+        left: 0px;
+        top: 10%;
+        position: absolute;
+        transition: 0.5s;
+
+    }
+    .mostrar_menu_lateral:hover{
+        box-shadow: 0 0 10px white;
+    }
+    .icone_mostrar_seta_let_rigth{        
+        
+     /*   background-image: url('./keyboard_arrow_right_16dp_00848E_FILL0_wght400_GRAD0_opsz20.svg');*/
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+    .box_lateral_de_navegacao{
+        width: 65px;
+        left: -63px;
+        transition: 0.5s;
+        z-index: 5;
+        
+    }
+    h1{
+        left: 15%;
+    }
+    .ativado_box_lateral_de_navegacao{
+        left: 0px !important;
+        
+    }
+    .ativado_icone_mostrar_seta_lefth_rigth{
+     /*   background-image: url('./keyboard_arrow_left_16dp_00848E_FILL0_wght400_GRAD0_opsz20.svg') !important;*/
+       background-color: none; 
+       
+    }
+    .ajusta_mostra_menu_lateral{
+        left:64px !important;
+    }
+}
+@media( min-height: 800px){
+
+    .icone_5_posicao{
+
+        top: 91%;
+    }
+    .icone_cofiguracao_posicao{
+        
+        top: 81.5%;
+    }
+    .icone_perfil_posicao{
+        top: 28.5%;
+    }
+    .icone_cronogrma_posicao{
+        top: 38%;
+    }
+    .icone_loja_posicao{
+
+        top: 47.5%;
+    }
+}
+@media( min-height: 900px){
+
+    .icone_5_posicao{
+
+        top: 91%;
+    }
+    .icone_cofiguracao_posicao{
+        
+        top: 82.5%;
+    }
+    .icone_perfil_posicao{
+        top: 29.5%;
+    }
+    .icone_cronogrma_posicao{
+        top: 38%;
+    }
+    .icone_loja_posicao{
+
+        top: 46.5%;
+    }
+}
+
+@media (min-height: 700px){
+
+    .icone_5_posicao{
+
+        top: 88.5%;
+    }
+    .icone_cofiguracao_posicao{
+        
+        top: 78.5%;
+    }
+    .icone_perfil_posicao{
+        top: 27.5%;
+    }
+    .icone_cronogrma_posicao{
+        top: 38%;
+    }
+    .icone_loja_posicao{
+
+        top: 48.5%;
+    }
+
+}
+
+@media (min-height: 1100px){
+
+    .icone_5_posicao{
+
+        top: 91.5%;
+    }
+    .icone_cofiguracao_posicao{
+        
+        top: 83.5%;
+    }
+    .icone_perfil_posicao{
+        top: 29.5%;
+    }
+    .icone_cronogrma_posicao{
+        top: 38%;
+    }
+    .icone_loja_posicao{
+
+        top: 46.5%;
+    }
+
+}
+@media ( max-height: 580px){
+
+    .icones_do_menu_de_navegacao{
+        height: 50px ;
+        width: 50px;
+    }   
+
+    .icone_5_posicao{
+
+        top: 84.5%;
+    }
+    .icone_cofiguracao_posicao{
+        
+        top: 71.5%;
+    }
+    .icone_perfil_posicao{
+        top: 19.5%;
+    }
+    .icone_cronogrma_posicao{
+        top: 33.5%;
+    }
+    .icone_loja_posicao{
+
+        top: 47.5%;
+    }
+
+}
