@@ -1,9 +1,16 @@
 # 🧠 O Monitor - Next.js Version
 
-**🇧🇷 O Monitor** é uma aplicação web desenvolvida com [Next.js](https://nextjs.org/) que integra inteligência artificial via [OpenAI API](https://platform.openai.com/), oferecendo respostas interativas em tempo real. Esta versão apresenta uma interface moderna, cronômetro integrado e suporte a múltiplas funcionalidades JavaScript, com foco em desempenho e usabilidade.
+**🇧🇷 O Monitor** Este é um projeto pessoal. Ele tem como objetivo oferecer às pessoas uma ferramenta poderosa para os estudos — incluindo agendas, banco de questões e uma loja para venda de e-books, ajudando a custear a plataforma.
 
-**🇺🇸 O Monitor** is a web application built with [Next.js](https://nextjs.org/) that integrates artificial intelligence through the [OpenAI API](https://platform.openai.com/), delivering interactive, real-time responses. This version features a modern interface, an integrated timer, and support for multiple JavaScript features, focusing on performance and usability.
+A plataforma segue o modelo freemium e continua em constante evolução. É um projeto ambicioso, do qual tenho muito orgulho, e tenho me dedicado bastante para desenvolver a melhor versão possível.
 
+Por conta desse foco, atualmente tenho um número limitado de repositórios públicos — minha prioridade tem sido aprimorar minhas habilidades para construir este projeto com qualidade.
+
+**🇺🇸 O Monitor** This is my personal project. It aims to provide people with a powerful tool for their studies — including schedules, a question bank, and a store for selling e-books to help support the platform’s costs.
+
+The platform follows a freemium model and continues to grow. It's an ambitious project that I'm passionate about, and I’ve been studying hard to develop the best version of it.
+
+Because of this focus, I currently have a limited number of public repositories — my priority has been improving my skills to build this project effectively.
 ---
 
 ## 🚀 Funcionalidades / Features
